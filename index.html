@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap&family=IBM+Plex+Mono:wght@500;600;700" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Pokedex LaunchX</title>
+    
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div class="header">
+                <h1 class="">Pokedex & LaunchX</h1>
+            </div>
+
+        </div>
+    </header>
+
+    
+
+    <div class="flex-container">
+        <div class="info-container">
+            <div class="input">
+                <input type="text" placeholder="Ingrese pokemon..." id="pokeName" name="pokeName"><br>
+                <img class="imagePoke" src="./assets/pokeball.gif" alt="Pokemon" id="pokeImg" ><br>
+            </div>
+            
+            <div class="text">
+                <p class="idText" id="pokeId"></p>
+                <p class="idText" id="pokeNombre"></p>
+                <p class="stastText" id="statsTitle"></p>
+                <p class="stastText" id="hp"></p>
+                <p class="stastText" id="atk"></p>
+                <p class="stastText" id="def"></p>
+                <p class="stastText" id="sAtk"></p>
+                <p class="stastText" id="sDef"></p>
+                <p class="stastText" id="spd"></p>
+                <p class="typeText" id="pokeTipos"></p>
+                <p class="typeText" id="pokeAbilities"></p>
+                <textarea readonly="readonly" cols="50" rows="3" id="pokeMoves" placeholder="Movimientos del pokemon"></textarea><br>
+                
+            </div>
+            <div class="buttonDiv">
+                <button   button onclick="fetchPokemon()">Buscar</button>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>

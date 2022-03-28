@@ -1,0 +1,111 @@
+h1{
+    margin: 0;
+    font-family: Oswald;
+    font-weight: 500;
+    color: black;
+    min-width: 300;
+    padding-bottom: 30px;
+}
+p{
+    margin: 0;
+    font-family: Oswald;
+    font-weight: 400;
+    color: black;
+    min-width: 300;
+    text-align: center;
+}
+
+
+button{
+    margin: 0;
+    font-family: Oswald;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(209, 40, 28);
+    min-width: 300;
+    border-radius: 25%;
+    font-size: 25px;
+}
+
+body{
+    font-size: 1.5rem;
+    background-image: url("./assets/pokedex.png");
+    background-attachment: fixed;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:  80rem;
+}
+
+.header{
+    padding-left: 700px;
+    margin-top: 40px;
+    align-items: center;
+
+}
+
+.text{
+    flex-direction: column;
+    padding-left: 700px;
+    align-content: center;
+}
+
+.input{
+    flex-direction: column;
+    padding-left: 925px;
+    align-items: center;
+}
+
+.imagePoke{
+    width: 170px;
+}
+
+.stastText{
+    font-family: IBM+Plex+Mono;
+    font-weight: 500;
+    color: rgb(0, 68, 255);
+}
+
+.idText{
+    font-family: IBM+Plex+Mono;
+    color: black;
+    font-weight: 500;
+}
+
+.typeText{
+    font-family: IBM+Plex+Mono;
+    color: rgb(255, 123, 0);
+    font-weight: 500;
+}
+
+textarea{
+    outline: none;
+    resize: none;
+    overflow: auto;
+    width: 600px;
+    height: 100px;
+    border: 3px solid black;
+	padding: 5px;
+	font-family: Oswald;
+    font-size: medium;
+	background-image: url(./assets/pokeBackground30.png) ;
+	background-attachment: local;
+    background-size: cover;
+
+
+}
+
+.info-container{
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.buttonDiv{
+    flex-direction: column;
+    padding-left: 965px;
+    align-items: center;
+}
